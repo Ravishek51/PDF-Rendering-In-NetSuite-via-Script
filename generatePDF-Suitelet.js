@@ -18,7 +18,7 @@ define(['N/record', 'N/render', 'N/log'], function(record, render, log) {
 
                     // Create a render object for the PDF
                     var pdfRender = render.create();
-                    pdfRender.setTemplateById('CUSTTMPL_109_4115328_SB1_145'); // Your template ID
+                    pdfRender.setTemplateById('CUSTTMPL_109_4115328_SB1_14'); // Your template ID
                     pdfRender.addRecord('record', salesOrderRecord);
 
                     // Render the PDF
